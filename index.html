@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./public/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./public/styles/custom.css" />
+    <title>Chegg Tutors Engineering</title>
+    <link rel="icon" type="image/x-icon" href="./public/img/chegg-favicon.ico" />
+    <!-- removed https:// to avoid potential false positive security warnings from browser due to conflict in protocol https vs http -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="chg-balloon-logo-container">
+        <img src="./public/img/logo.png" />
+    </div>
+
+    <div id="chg-balloon-controls-container">
+        <p>Enter a username to get started!</p>
+        <input id="chg-balloon-input" maxlength="2048" placeholder="e.g. BalloonMaster99"
+            name="username" autocomplete="off" type="text" value="" />
+        <button id="chg-balloon-submit">Check availability</button>
+
+        <div id="chg-ballon-response">
+          <!-- JS generated responses -->
+        </div>
+
+    </div>
+    <script type="text/javascript" src="./public/scripts/chegg.js"></script>
+  </body>
+</html>

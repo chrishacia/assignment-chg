@@ -1,0 +1,40 @@
+#chg-ballon-response{
+    width: 100%;
+    text-align: left;
+}
+.name_selection{
+    margin-top:6px;
+    width: 100%;
+    padding:6px;
+    border-bottom: solid 1px #cfcfcf;
+}
+.name_selection.taken{
+    font-style: italic;
+}
+
+.name_selection:last-child{
+    border-bottom: none;
+}
+.notify{
+    width: 100%;
+    padding:6px;
+    border: solid 1px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.notify.bad {
+    border-color: #6c1e1e;
+    background-color: #f0b1b1;
+    color:#444;
+}
+.notify.good {
+    border-color: #137548;
+    background-color: #97cbb3;
+    color:#444;
+}
+.text-good{
+    color: #137548;
+}
+.text-bad{
+    color: #6c1e1e
+}
